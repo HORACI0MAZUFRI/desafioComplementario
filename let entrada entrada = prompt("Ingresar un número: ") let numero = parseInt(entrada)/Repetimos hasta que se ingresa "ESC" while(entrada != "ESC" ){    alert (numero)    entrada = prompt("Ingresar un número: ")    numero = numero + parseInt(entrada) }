@@ -1,9 +1,0 @@
-let entrada
-entrada = prompt("Ingresar un número: ")
-let numero = parseInt(entrada)
-//Repetimos hasta que se ingresa "ESC"
-while(entrada != "ESC" ){
-   alert (numero)
-   entrada = prompt("Ingresar un número: ")
-   numero = numero + parseInt(entrada)
-}
